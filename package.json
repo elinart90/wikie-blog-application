@@ -1,0 +1,27 @@
+{
+  "name": "blog-application",
+  "version": "1.0.0",
+  "homepage": "https://github.com/elinart90/wikie-blog-application.git",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/elinart90/wikie-blog-application.git"  
+  },
+  "author": "Elinart",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "gh-pages": "^6.1.1",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.4",
+    "nodemon": "^3.1.4"
+  }
+}
